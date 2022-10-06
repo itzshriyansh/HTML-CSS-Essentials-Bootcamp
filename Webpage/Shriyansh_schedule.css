@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50% ), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.icon{
+    width: 200px; 
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.search{
+    width: 300px;
+    float: right;
+    margin-right: 100px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+} 
+
+.table-box{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555(110, 22, 22);
+    font-size: 15px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+
+}
+
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #fff;
+    vertical-align: middle; 
+}   
+
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: black;
+    font-weight: 600;    
+}
+
+.table-head .table-cell{
+    border-right: none ;
+}
+
+.last-cell{
+    border-right: none;
+}
+
+.table-col{
+    color: #fff;
+}
+
+
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.end{
+    text-align: center;
+    color: #380421;
+}
+
+.link-cell{
+    background:rgb(231, 229, 229);
+}
